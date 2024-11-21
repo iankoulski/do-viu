@@ -1,8 +1,22 @@
 # do-viu
-View images in your terminal shell using the [do-framework](https://bit.ly/do-framework)
+
+View images in your terminal shell using the [do-framework](https://bit.ly/do-framework). 
+
+Source: [https://github.com/iankoulski/do-viu.git](https://github.com/iankoulski/do-viu.git)
+
+Container: [https://hub.docker.com/r/iankoulski/do-viu](https://hub.docker.com/r/iankoulski/do-viu)
 
 # Usage
+
+```
 docker run -it --rm -v $(pwd):/wd iankoulski/do-viu bash
+```
+
+or
+
+```
+docker run -it --rm -v $(pwd):/wd iankoulski/do-viu viu /wd/<image-file-name>
+```
 
 # Build
 
